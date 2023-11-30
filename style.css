@@ -30,6 +30,8 @@ body{
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    color: white;
+
 }
 
 h2.titulo{
@@ -116,15 +118,6 @@ section.topo-do-site .flex{
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-@keyframes flutuar{
-    0%{
-        top: 0;
-    }
-    100%{
-        top: 30px;
-    }
-}
-
 /* Estilo das especialidades */
 section.especialidades{
     padding: 40px 4%;
@@ -161,12 +154,24 @@ section.especialidades .flex{
 section.sobre{
     padding: 70px 4%;
 }
+
 .img-sobre img{
     width:300px;
-    border-radius: 20px;
-    clip-path: circle(66%);
-    
+    border-radius: 80px;
+    clip-path: circle(76%);
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
 }
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
 section.sobre .flex{
     align-items: center;
     gap: 60px;
@@ -191,7 +196,7 @@ section.sobre .flex{
     text-align:justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50px;
@@ -293,5 +298,30 @@ form .btn-enviar input{
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+}
 
+/* estilo do footer */
+footer{
+    padding: 40px, 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid rgb(142, 64, 153);
+}
+footer .line-footer  p i{
+    color: rgb(142, 64, 153);
+    font-size: 22px; 
+}
+
+footer .line-footer p a{
+    color: black;
 }
