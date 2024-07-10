@@ -1,6 +1,22 @@
-# portifolioYoga
+## portifolioYoga
 
-Iniciando a criação de um portifólio.
-Este é um projeto de estudos - Descodificadas
+📌 Versão
+1.0
 
-_ Commit inicial do projeto
+### 🚀 Informações Gerais:
+ 
+O projeto tem como objetivo criar uma o um portifolio de front end.
+Este projeto está sendo criando ao longo das aulas da trilha II do projeto Descodificadas
+
+-------------------------------------------------------------------------------------
+### 🛠️ Construido com:
+
+A API foi criada com 
+
+ * HTML
+ * CSS
+ * Javascript
+ 
+
+🔧 IDE
+ * Vs code
